@@ -1,0 +1,35 @@
+body {
+background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7) ), url(https://th.bing.com/th?id=OIP.mE0mPrzHXJypLtWVnDnwPgHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+   
+}
+#lower-side {
+    display: flex;
+    
+}
+#right-side {
+    width: 300;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8) );
+}
+::placeholder {
+    color: white;
+  }
